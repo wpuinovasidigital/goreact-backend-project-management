@@ -62,5 +62,5 @@ func (a UUIDArray) Value() (driver.Value, error) {
 }
 
 func (UUIDArray) GormDataType() string {
-
+	return "uuid[]"
 }
